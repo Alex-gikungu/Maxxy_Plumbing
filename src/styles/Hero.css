@@ -1,0 +1,65 @@
+/* src/styles/Hero.css */
+
+.hero-section {
+  background-image: url('https://imgs.search.brave.com/TrpYsAK5YZLAH1WiTBzOU4mTKKVXsaG75Vcnn1bNIjg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYW5p/a2FwbHVtYmluZy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDEvcGx1bWJp/bmctc3lzdGVtcy1o/ZWFkZXIuanBn'); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Full dark overlay */
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Centered content */
+.hero-content {
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  max-width: 800px;
+  z-index: 2;
+}
+
+/* Headline and paragraph */
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Button container */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Button styling and hover effects */
+.hero-btn {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}

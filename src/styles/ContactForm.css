@@ -1,0 +1,31 @@
+/* src/styles/ContactForm.css */
+
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-heading {
+  color: #0d6efd; /* Navbar blue */
+}
+
+.contact-side-img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  align-self: flex-start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-side-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+}
+
+.contact-form {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}

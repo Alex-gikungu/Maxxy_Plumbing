@@ -1,0 +1,30 @@
+/* src/styles/About.css */
+
+.about-section {
+  background-color: #f8f9fa;
+}
+.about-section h2 {
+  color: #0d6efd; /* Same as navbar background */
+}
+
+.about-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+}
+
+.about-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.about-card .card-title i {
+  color: #0d6efd; /* Navbar blue */
+}

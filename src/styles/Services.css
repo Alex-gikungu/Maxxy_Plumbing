@@ -1,0 +1,29 @@
+/* Ensure image fills the card top without gaps */
+.card-img-wrapper {
+  height: 280px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 80%;
+  height: 110%;
+  object-fit: cover;
+}
+
+/* Hover effect for card */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Button hover effect */
+.service-card .btn-primary {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.service-card .btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: scale(1.05);
+}
